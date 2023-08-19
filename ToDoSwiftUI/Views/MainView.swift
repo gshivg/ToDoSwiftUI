@@ -17,7 +17,7 @@ struct MainView: View {
             LoginView()
         }
     }
-    
+     
     @ViewBuilder
     var accountView: some View {
         TabView {

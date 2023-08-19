@@ -33,6 +33,7 @@
 		0133800F2A8FB301008AD238 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133800E2A8FB301008AD238 /* HeaderView.swift */; };
 		013380112A8FB9C6008AD238 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013380102A8FB9C6008AD238 /* TLButton.swift */; };
 		013380132A905A0A008AD238 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013380122A905A0A008AD238 /* Extensions.swift */; };
+		013380152A90E6A6008AD238 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 013380142A90E6A6008AD238 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		0133800E2A8FB301008AD238 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		013380102A8FB9C6008AD238 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		013380122A905A0A008AD238 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		013380142A90E6A6008AD238 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,12 +120,12 @@
 				01337FD72A8F8CFC008AD238 /* MainView.swift */,
 				01337FF02A8FAE51008AD238 /* ProfileView.swift */,
 				01337FF22A8FAE69008AD238 /* ToDoListView.swift */,
+				01337FFA2A8FAEBC008AD238 /* ToDoListItemView.swift */,
 				01337FF42A8FAE7F008AD238 /* NewItemView.swift */,
 				01337FF62A8FAE8B008AD238 /* LoginView.swift */,
 				0133800E2A8FB301008AD238 /* HeaderView.swift */,
 				01337FF82A8FAE95008AD238 /* RegisterView.swift */,
 				013380102A8FB9C6008AD238 /* TLButton.swift */,
-				01337FFA2A8FAEBC008AD238 /* ToDoListItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -134,10 +136,10 @@
 				013380002A8FAF3C008AD238 /* MainViewViewModel.swift */,
 				013380022A8FAF47008AD238 /* ProfileViewViewModel.swift */,
 				013380042A8FAF59008AD238 /* ToDoListViewViewModel.swift */,
+				0133800C2A8FAF8D008AD238 /* ToDoListItemViewViewModel.swift */,
 				013380062A8FAF65008AD238 /* NewItemViewViewModel.swift */,
 				013380082A8FAF70008AD238 /* LoginViewViewModel.swift */,
 				0133800A2A8FAF7E008AD238 /* RegisterViewViewModel.swift */,
-				0133800C2A8FAF8D008AD238 /* ToDoListItemViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -158,6 +160,7 @@
 				01337FEA2A8FA7FA008AD238 /* GoogleService-Info.plist */,
 				01337FD52A8F8CFC008AD238 /* ToDoSwiftUIApp.swift */,
 				013380122A905A0A008AD238 /* Extensions.swift */,
+				013380142A90E6A6008AD238 /* Launch Screen.storyboard */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 			files = (
 				01337FDD2A8F8CFD008AD238 /* Preview Assets.xcassets in Resources */,
 				01337FDA2A8F8CFD008AD238 /* Assets.xcassets in Resources */,
+				013380152A90E6A6008AD238 /* Launch Screen.storyboard in Resources */,
 				01337FEB2A8FA7FA008AD238 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +400,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -425,6 +430,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
