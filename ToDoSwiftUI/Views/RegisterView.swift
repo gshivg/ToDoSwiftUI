@@ -1,15 +1,41 @@
-//
-//  RegisterView.swift
-//  ToDoSwiftUI
-//
-//  Created by Shivansh Gupta on 18/08/23.
-//
-
 import SwiftUI
 
 struct RegisterView: View {
+    @StateObject var viewModel = RegisterViewViewModel()
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            // Header
+            HeaderView(title: "Register", subtitle: "Start organizing todos", angle: -15, backgroundColor: .orange)
+            // Form
+            Form {
+                if !viewModel.errorMessage.isEmpty {
+                    Text(viewModel.errorMessage)
+                        .foregroundColor(.red)
+                        .font(.caption)
+                }
+                
+                TextField("Full name",text: $viewModel.fullName)
+                    .textFieldStyle(DefaultTextFieldStyle())
+                    .autocorrectionDisabled()
+                
+                TextField("Email",text: $viewModel.email)
+                    .textFieldStyle(DefaultTextFieldStyle())
+                    .textInputAutocapitalization(.none)
+                
+                TextField("Password",text: $viewModel.password)
+                    .textFieldStyle(DefaultTextFieldStyle())
+                
+                TLButton(
+                    title: "Create Account",
+                    background: .green
+                ) {
+                    viewModel.register()
+                }
+            }
+            .offset(y: -100)
+            
+            Spacer()
+        }
     }
 }
 

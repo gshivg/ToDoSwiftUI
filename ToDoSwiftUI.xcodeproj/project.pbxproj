@@ -30,6 +30,9 @@
 		013380092A8FAF70008AD238 /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013380082A8FAF70008AD238 /* LoginViewViewModel.swift */; };
 		0133800B2A8FAF7E008AD238 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133800A2A8FAF7E008AD238 /* RegisterViewViewModel.swift */; };
 		0133800D2A8FAF8D008AD238 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133800C2A8FAF8D008AD238 /* ToDoListItemViewViewModel.swift */; };
+		0133800F2A8FB301008AD238 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0133800E2A8FB301008AD238 /* HeaderView.swift */; };
+		013380112A8FB9C6008AD238 /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013380102A8FB9C6008AD238 /* TLButton.swift */; };
+		013380132A905A0A008AD238 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013380122A905A0A008AD238 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		013380082A8FAF70008AD238 /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		0133800A2A8FAF7E008AD238 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		0133800C2A8FAF8D008AD238 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		0133800E2A8FB301008AD238 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		013380102A8FB9C6008AD238 /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
+		013380122A905A0A008AD238 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +120,9 @@
 				01337FF22A8FAE69008AD238 /* ToDoListView.swift */,
 				01337FF42A8FAE7F008AD238 /* NewItemView.swift */,
 				01337FF62A8FAE8B008AD238 /* LoginView.swift */,
+				0133800E2A8FB301008AD238 /* HeaderView.swift */,
 				01337FF82A8FAE95008AD238 /* RegisterView.swift */,
+				013380102A8FB9C6008AD238 /* TLButton.swift */,
 				01337FFA2A8FAEBC008AD238 /* ToDoListItemView.swift */,
 			);
 			path = Views;
@@ -149,6 +157,7 @@
 				01337FD92A8F8CFD008AD238 /* Assets.xcassets */,
 				01337FEA2A8FA7FA008AD238 /* GoogleService-Info.plist */,
 				01337FD52A8F8CFC008AD238 /* ToDoSwiftUIApp.swift */,
+				013380122A905A0A008AD238 /* Extensions.swift */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -233,11 +242,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				01337FF72A8FAE8B008AD238 /* LoginView.swift in Sources */,
+				0133800F2A8FB301008AD238 /* HeaderView.swift in Sources */,
 				01337FD82A8F8CFC008AD238 /* MainView.swift in Sources */,
 				0133800B2A8FAF7E008AD238 /* RegisterViewViewModel.swift in Sources */,
 				013380012A8FAF3C008AD238 /* MainViewViewModel.swift in Sources */,
 				01337FF32A8FAE69008AD238 /* ToDoListView.swift in Sources */,
 				01337FF92A8FAE95008AD238 /* RegisterView.swift in Sources */,
+				013380112A8FB9C6008AD238 /* TLButton.swift in Sources */,
 				013380032A8FAF47008AD238 /* ProfileViewViewModel.swift in Sources */,
 				01337FF12A8FAE51008AD238 /* ProfileView.swift in Sources */,
 				01337FFB2A8FAEBC008AD238 /* ToDoListItemView.swift in Sources */,
@@ -245,6 +256,7 @@
 				013380052A8FAF59008AD238 /* ToDoListViewViewModel.swift in Sources */,
 				013380092A8FAF70008AD238 /* LoginViewViewModel.swift in Sources */,
 				01337FD62A8F8CFC008AD238 /* ToDoSwiftUIApp.swift in Sources */,
+				013380132A905A0A008AD238 /* Extensions.swift in Sources */,
 				01337FFD2A8FAEFB008AD238 /* UserModel.swift in Sources */,
 				01337FF52A8FAE7F008AD238 /* NewItemView.swift in Sources */,
 				013380072A8FAF65008AD238 /* NewItemViewViewModel.swift in Sources */,
